@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Brush; 
+    src:url(fonts/BRUSHSCI.TTF);  
+  } 
+
+@font-face {
+    font-family: Times New Roman; 
+    src:url(fonts/times.TTF);  
+  }
+@font-face {
+    font-family: BRLNSDB; 
+    src:url(fonts/BRLNSDB.TTF);  
+  }
+@font-face {
+    font-family: Forte; 
+    src:url(fonts/FORTE.TTF);  
+  }
+
+@font-face {
+    font-family: Calibri; 
+    src:url(fonts/calibrib.TTF);  
+  }
+.RegistrationBox{
+  
+    top: 30pt;
+    left: 50%;
+    width: 400px;
+    margin-bottom: 30pt;
+    position: absolute;
+    transform: translate(-50%, 0pt);
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: black;
+   
+}
+.RegistrationBox h2{
+  cursor: inherit;
+  font-family: Times New Roman;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    cursor: default;
+}
+.pName, .pEmail, .pDOB, .pPC, .pMN{
+  color: white;
+  cursor: default;
+  font-size: 25px;
+  font-family: BRLNSDB;
+}
+.inputName, .inputEmail, .inputDOB, .inputPC, .inputMN{
+  color: grey;
+  cursor: initial;
+  font-size: 20px;
+  font-family: Calibri;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+}
+.inputPC{
+  margin-bottom: 15px;
+}
+.submitbutton{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #c94344;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 20px;
+  width: 100%;
+  transition: 0.1s;
+  font-family: Forte;
+}
+.submitbutton:hover{
+  background: #ac8206e8;
+}
+
+@media  all and (min-width:1024px){
+  .RegistrationBox{
+   width: 450px;
+  }
+}
+@media  all and (max-width:819px) and (min-width:654px){
+  .RegistrationBox{
+   width: 450px;
+  } 
+}
+@media  all and (max-width:653px) and (min-width:516px){
+  .RegistrationBox{
+   width: 450px;
+  } 
+}
+@media  all and (max-width:515px) and (min-width:420px){
+  .RegistrationBox{
+   width: 400px;
+  } 
+  .RegistrationBox h2{
+    font-size: 35px;
+  }
+.pName, .pEmail, .pDOB, .pPC, .pMN{
+  font-size: 15px;
+}
+.inputName, .inputEmail, .inputDOB, .inputPC, .inputMN{
+  font-size: 14px;
+}
+}
+@media  all and (max-width:419px) and (min-width:315px){
+  .RegistrationBox{
+   width: 300px;
+  } 
+  .RegistrationBox h2{
+    font-size: 25px;
+  }
+  .pName, .pEmail, .pDOB, .pPC, .pMN{
+  font-size: 15px;
+}
+.inputName, .inputEmail, .inputDOB, .inputPC, .inputMN{
+  font-size: 14px;
+}
+  .submitbutton{
+    font-size: 20px;
+    height: 30px;
+    padding-bottom: 20px;
+  }
+}
+@media  all and (max-width:314px) and (min-width:215px){
+  .RegistrationBox{
+   width: 200px;
+  } 
+  .RegistrationBox h2{
+    font-size: 20px;
+  }
+  .pName, .pEmail, .pDOB, .pPC, .pMN{
+  font-size: 15px;
+}
+.inputName, .inputEmail, .inputDOB, .inputPC, .inputMN{
+  font-size: 14px;
+}
+.submitbutton{
+    font-size: 20px;
+    height: 30px;
+    padding-bottom: 20px;
+  }
+}
